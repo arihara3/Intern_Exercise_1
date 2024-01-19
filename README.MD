@@ -1,8 +1,8 @@
 HTML to JSON conveter using Java : Parses the input Html file and produce the JSON file as output which consists of two object called "summary" and "capitals".
 
-#install necessary jar file -> org.json-20130603,jsoup-1.17.2 with latest version
+#install necessary jar file -> org.json-20130603, jsoup-1.17.2 
+#for generating output use below script in command line 
 
-#for generating output use script in command line 
+javac -cp .;path\to\org.json.jar;path\to\jsoup-1.14.3.jar YourJavaFileName.java
+java -cp .;path\to\org.json.jar;path\to\jsoup-1.14.3.jar YourJavaFileName
 
-javac -cp .;C:\Users\ariharan.s\Desktop\jsoup-1.17.2.jar;C:\Users\ariharan.s\Desktop\org.json-20130603.jar Restart.java
-java -cp .;C:\Users\ariharan.s\Desktop\jsoup-1.17.2.jar;C:\Users\ariharan.s\Desktop\org.json-20130603.jar Restart
